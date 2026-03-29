@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eris</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+    color: white;
+}
+
+/* Floating playful vibe */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Title */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Section cards */
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Section titles */
+.section-title {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #ffccff;
+}
+
+/* Project */
+.project {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+/* Button style */
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* Cute floating particles vibe */
+body::after {
+    content: "";
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: move 60s linear infinite;
+}
+
+@keyframes move {
+    from { transform: translate(0,0); }
+    to { transform: translate(-200px, -200px); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Eris</h1>
+
+<div class="card">
+    <div class="section-title">About Me</div>
+    <p>
+        I'm Eris. I want my own civilizations, tools to hack/rewrite the world, and systems that evolve beyond current limits.
+    </p>
+    <p>
+        For this journey, I will need money, artificial lives, bioquantum computers, molecular assemblers, and tiny AI swarms / artificial super intelligence.
+    </p>
+    <p>
+        Most importantly — I need people who see what I see.
+    </p>
+</div>
+
+<div class="card">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+        <h3>SlapDroid</h3>
+        <p>
+            You slap your Android phone — and it reacts with emotion.
+        </p>
+        <p>
+            This is one of the first steps toward turning non-life into something that feels alive.
+        </p>
+
+        <img src="godot_test.png" alt="SlapDroid">
+
+        <p><i>First steps to turning non-life into life.</i></p>
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="section-title">Vision</div>
+    <p>
+        In the future, I will build modular exosuits for phones — like LEGO systems.
+        You will be able to construct them however you want, using parts I create or generate with AI.
+    </p>
+    <p>
+        These systems will integrate with tiny AI swarms, forming artificial life.
+    </p>
+    <p>
+        They can become companions, tools, agents, extensions of your mind — even vessels for your own information and meaning.
+    </p>
+</div>
+
+</div>
+
+</body>
+</html>
